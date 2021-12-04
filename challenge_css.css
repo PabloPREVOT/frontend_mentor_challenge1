@@ -1,0 +1,195 @@
+body
+{
+	background-color: hsl(210, 46%, 95%);
+}
+
+div, aside
+{
+	border-radius: 10px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.profil
+{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.name_graduate
+{
+	margin-left: 20px;
+}
+
+.name_1
+{
+	color: rgb(80, 80, 80);
+}
+
+.graduate_1
+{
+	color: rgba(80, 80, 80, 0.5);
+}
+
+.second_p_1
+{
+	color: rgba(80, 80, 80, 0.3);
+	text-align: justify;
+}
+
+.name_2
+{
+	color: rgb(230, 230, 230);
+}
+
+.graduate_2
+{
+	color: rgba(230, 230, 230, 0.5);
+}
+
+.second_p_2
+{
+	color: rgba(230, 230, 230, 0.3);
+	text-align: justify;	
+}
+
+.profil div
+{
+	margin: 0;
+	padding: 0;
+}
+
+.profil p
+{
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.profil_image
+{
+	border-radius: 50px;
+	height: 30px;
+	width: 30px;
+}
+
+.first_p
+{
+	font-size: 1.3em;
+}
+
+#bloc_page
+{
+	display: flex;
+	width: 1200px;
+	margin: auto;
+}
+
+section
+{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	width: 750px;
+	margin-left: 80px;
+}
+
+#daniel
+{
+	background: url(images/bg-pattern-quotation.svg) no-repeat 75% 0;
+	background-color: hsl(263, 55%, 52%);
+	color: white;
+	width:370px;
+}
+
+#jonathan
+{
+	background-color: hsl(217, 19%, 35%);
+	color: white;
+	width: 250px;
+}
+
+#kira
+{
+	background-color: hsl(0, 0%, 100%);
+	color: black;
+	width: 200px;
+}
+
+#jeanette
+{
+	background-color: hsl(0, 0%, 100%);
+	color: black;
+	width: 200px;
+}
+
+#patrick
+{
+	background-color: hsl(219, 29%, 14%);
+	color: white;
+	width: 420px;
+}
+
+@media all and (max-device-width: 480px)/*media queries pour mobile*/
+{
+	#bloc_page
+	{
+		display: block;
+		width: 300px;
+		margin: auto;
+		padding: 0;
+	}
+
+	section
+	{
+		flex-direction: column;
+		flex-wrap: nowrap;
+		width: 300px;
+		margin: auto;
+	}
+
+	#daniel
+	{
+		width: 300px;
+		margin: auto;
+		margin-top: 10px;
+		padding: auto;
+	}
+
+	#jonathan
+	{
+		width: 300px;
+		margin: auto;
+		margin-top: 10px;
+		padding: auto;
+	}
+
+	#jeanette
+	{
+		width: 300px;
+		margin: auto;
+		margin-top: 10px;
+		padding: auto;
+	}
+
+	#patrick
+	{
+		width: 300px;
+		margin: auto;
+		margin-top: 10px;
+		padding: auto;
+	}
+
+	#kira
+	{
+		width: 300px;
+		margin: auto;
+		margin-top: 10px;
+		padding: auto;
+	}
+}
+
+
+
+
+
